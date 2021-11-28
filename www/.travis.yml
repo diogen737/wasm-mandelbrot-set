@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - 16
+
+git:
+  depth: 3
+
+branches:
+  only:
+  - master
+script:
+  - ./node_modules/.bin/webpack
